@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB1 - HTML</title>
+  </head>
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <p>
+      <strong>Hi Dojin!!</strong><br>
+      <b><u>Hi Dojin!!</u></b>
+    </p>
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+      <li>ol(Ordered List)태그를 이용하면 번호가 자동으로 붙는다.</li>
+    </ol>
+    <ul>
+      <li>ChanHo</li>
+      <li>DoJin</li>
+      <li>li태그의 부모태그 ul(Unordered List)태그를 이용해 리스트를 구분할 수 있다.</li>
+    </ul>
+    <u><h1><a href="https://www.w3.org/TR/html51/" target="_blank"
+      title = "html5 specification">1.HTML</a></h1></u>
+    <h1>h1:h태그들은 기본적으로</h1>
+    <h2>h2:글씨가 굵고 위아래 공백이 있으며</h2>
+    <h3>h3:줄바꿈이 된다</h3>
+    <h4>h4:(= println과 같은 역할)</h4>
+    <h5>h5:1~6까지 있고</h5>
+    <h6>h6:숫자가 클 수록 크기가 작아진다</h6>
+    <p>
+      br을 쓰면 한 줄 줄바꿈이 가능하다.<br>
+      br태그는 닫는 태그가 따로 존재하지 않는다.<br>
+      p태그는 단락을 표현하기 위한 태그이다.<br>
+      p태그로 감싸놓은 내용은 하나의 단락으로 인식된다.
+    </p>
+    p태그 바깥의 내용
+    <p style="margin-top:5px">p태그를 사용하는 것이 더 가치있는 태그라고 한다.</p>
+    <p style="margin-top:3px">style 태그는 CSS태그이다.</p>
+    <pre>
+    pre태그도 단락을 만든다.
+      pre태그는 내부 내용을 그대로 표기한다.
+    </pre>
+    <img src="1.jpg" width="100%">
+    <p>img태그에서 width를 100%로 할 경우, 창에 맞게 사이즈가 변한다.</p>
+    <p>
+      <style>
+        table {
+          width : 100%;
+          border : 1px solid #444444;
+          border-collapse: collapse;
+        }
+        td {
+          border : 1px solid #444444;
+          padding : 10px;
+        }
+      </style>
+      <table>
+        <tr>
+          <td>뭘까이게</td>
+          <td>하나를 늘려보자</td>
+          <td>과연?</td>
+          <td></td><td></td>
+        </tr>
+        <tr>
+          <td>tr이 하나라 그런가</td>
+          <td>왜 구분이 안되어있지</td>
+          <td>하나 더 추가!</td>
+          <td></td><td></td>
+        </tr>
+        <tr>
+          <td>오 선은 없지만</td>
+          <td>구분은 되는데?</td>
+          <td>그럼 얘만</td>
+          <td>하나가 더있으면 어떨까?</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>tr은 행 추가</td>
+          <td>td는 열 추가</td>
+          <td>기본적으로 선은 그어져 있지 않음.</td>
+          <td>제일 긴 문장에 맞게 표 생성.</td>
+          <td>그럼 어떻게 해야 선이 그어질까?</td>
+        </tr>
+        <tr>
+          <td>선 그리기는 CSS태그 활용!</td>
+          <td>style태그 안에 table을 만들어서</td>
+          <td>border속성을 준다.</td>
+          <td>이게 뭐야</td>
+          <td>행의 칸수를 같게 해야한다.</td>
+        </tr>
+      </table>
+    </p>
+    <p>
+      <style>
+        table {
+          width : 100%;
+          border-top : 1px solid black;
+          border-collapse: collapse;
+        }
+        td {
+          border-bottom : 1px solid blue;
+          padding : 10px;
+        }
+      </style>
+      <table>
+        <tr>
+          <td>이렇게 하면</td>
+          <td>위아래 줄만 만들 수 있다!</td>
+          <td>padding을 이용해 내용과 테두리 사이의 간격을 설정</td>
+          <td>style은 두 개가 동시에 적용된다. 따로 적용하는 방법은..?</td>
+        </tr>
+        <tr>
+          <td>border-collapse = 테두리 간의 간격</td>
+          <td>padding = 테두리와 내용 간의 간격</td>
+          <td>table의 border-top을 통해 맨 위에만 테두리를 주고</td>
+          <td>td의 border-bottom을 통해 맨 아래에 테두리를 준다</td>
+        </tr>
+      </table>
+    </p>
+  </body>
+</html>
